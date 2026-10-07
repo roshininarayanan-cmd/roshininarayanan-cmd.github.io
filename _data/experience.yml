@@ -1,0 +1,35 @@
+- company: GE HealthCare
+  role: Product Manager Intern, Digital Technology
+  location: Bellevue, Washington
+  dates: May 2026 — Present
+  summary: Product discovery and platform integration for hospital operations software.
+  highlights:
+    - Led product discovery and defined a roadmap for an enterprise platform integration intended to embed hospital operations software in users’ existing systems, translating customer insights and platform constraints into prioritized requirements and an implementation strategy.
+    - Conceptualized and built an agentic AI prototype for a patient transfer workflow with engineering at the company innovation hackathon; the prototype won the hackathon.
+
+- company: Flexan
+  descriptor: An Ingersoll Rand business
+  role: Market Research Intern, Commercial Sales
+  location: Berkeley, California
+  dates: September 2025 — May 2026
+  note: In-semester internship
+  summary: Market strategy for a specialized medical-device contract manufacturer.
+  highlights:
+    - Developed a market-entry strategy for medical-technology segments through market segmentation, competitive benchmarking, and opportunity sizing to inform commercial expansion and customer acquisition.
+
+- company: Medtronic
+  role: Project Management Specialist, Business Process Improvement
+  location: Santa Rosa, California
+  dates: July 2022 — August 2025
+  secondary_role: Selected for a concurrent Product Management Talent Program project in Aortic Marketing (2023–2024).
+  summary: Enterprise product improvement, adoption, migration, and product launch work.
+  highlights:
+    - Led enterprise implementation of a cloud-based, AI-driven project management tool, standardizing workflows across 100+ teams and 12,000+ projects.
+    - Increased product adoption by 40% through user interviews, tool benchmarking, and customizations tailored to team needs; delivered 3+ user-driven enhancements each month and raised satisfaction to 92%.
+    - Built a backlog prioritization framework for engineering; 99% of high-severity issues with the AI tool were resolved within 24 hours.
+    - Secured adoption across 16 teams and reduced annual software spend by approximately $100,000; published a transition playbook to consolidate reporting.
+    - Automated the SQL-based migration of 9,000 projects with 98% transfer accuracy, eliminating manual data entry.
+    - Created AI-assisted training for 6,000+ global users, reducing support tickets by approximately 70%.
+    - Standardized requirement intake and performance measurement, accelerating feature delivery by 25%.
+    - Defined the vision, roadmap, and go-to-market strategy for a cardiovascular education product, contributing to 78% order growth and delivery of 1,000+ models.
+    - Coordinated a distribution network that enabled delivery to Latin America and Asia-Pacific and reduced per-unit cost by 38%.

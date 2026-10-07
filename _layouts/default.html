@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      {% include navigation.html %}
+      <main id="main" class="site-main">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

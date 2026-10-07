@@ -1,0 +1,25 @@
+<article class="experience-entry">
+  <div class="experience-entry__topline">
+    <div>
+      <p class="experience-entry__company">{{ include.role.company }}</p>
+      {% if include.role.descriptor %}
+        <p class="experience-entry__descriptor">{{ include.role.descriptor }}</p>
+      {% endif %}
+    </div>
+    <p class="experience-entry__dates">{{ include.role.dates }}</p>
+  </div>
+  <h2>{{ include.role.role }}</h2>
+  {% if include.role.secondary_role %}
+    <p class="experience-entry__secondary">{{ include.role.secondary_role }}</p>
+  {% endif %}
+  <p class="experience-entry__meta">
+    {{ include.role.location }}
+    {% if include.role.note %}<span aria-hidden="true"> · </span>{{ include.role.note }}{% endif %}
+  </p>
+  <p class="experience-entry__summary">{{ include.role.summary }}</p>
+  <ul>
+    {% for highlight in include.role.highlights %}
+      <li>{{ highlight }}</li>
+    {% endfor %}
+  </ul>
+</article>

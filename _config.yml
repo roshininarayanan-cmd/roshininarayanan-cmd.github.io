@@ -1,0 +1,27 @@
+title: "Roshini Narayanan"
+description: "Healthtech product management, grounded in biomedical engineering and user needs."
+url: "https://roshininarayanan-cmd.github.io"
+baseurl: ""
+permalink: pretty
+markdown: kramdown
+encoding: utf-8
+timezone: America/Los_Angeles
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+linkedin_url: "https://www.linkedin.com/in/roshini-narayanan/"
+
+exclude:
+  - PLAN.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .replit
+  - .replitignore
+  - replit.md
+  - .cache
+  - .local
+  - .agents
