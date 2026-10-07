@@ -1,0 +1,1 @@
+- [Jekyll preview URLs](jekyll-preview-canonical.md) — validate canonical tags and the sitemap with a production build; local preview may use its host.

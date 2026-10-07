@@ -33,6 +33,7 @@ plugins:
 exclude:
   - README.md
   - PLAN.md
+  - replit.md
   - Gemfile
   - Gemfile.lock
   - .bundle
