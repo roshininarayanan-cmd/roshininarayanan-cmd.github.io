@@ -1,0 +1,44 @@
+title: Roshini Narayanan
+description: Product management across healthcare technology, digital platforms, and AI.
+url: "https://roshininarayanan-cmd.github.io"
+baseurl: ""
+lang: en
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+
+author:
+  name: Roshini Narayanan
+  email: roshini_narayanan@berkeley.edu
+
+social:
+  name: Roshini Narayanan
+  links:
+    - https://www.linkedin.com/in/roshini-narayanan/
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Work Experience
+    url: /work-experience/
+  - title: Contact
+    url: /contact/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - .cache
+  - .conversation
+  - .local
+  - attached_assets
+  - node_modules
+  - vendor

@@ -1,45 +1,23 @@
-# [Project name]
+# Roshini Narayanan Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A static, root-level Jekyll portfolio for publishing directly through GitHub Pages.
 
-## Run & Operate
+## Run & operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `bundle install` — install the local GitHub Pages/Jekyll dependencies.
+- `bundle exec jekyll serve` — preview at `http://127.0.0.1:4000`.
+- GitHub Pages publishes from the `main` branch and `/(root)`; no separate build workflow is needed.
 
-## Stack
+## Structure
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- `index.md`, `about.md`, `work-experience.md`, `contact.md` — Markdown content with YAML front matter.
+- `_config.yml` — site URL, empty `baseurl`, navigation, and supported GitHub Pages plugins.
+- `_layouts/` and `_includes/` — shared page shell, metadata, navigation, and footer.
+- `assets/css/site.css` — responsive, light-only styling; no JavaScript or external font dependencies.
+- `PLAN.md` — approved scope; excluded from the published site.
 
-## Where things live
+## Project constraints
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Keep the published site at the repository root for the GitHub user site `roshininarayanan-cmd.github.io`.
+- Keep personal content grounded in the supplied résumé. The email and LinkedIn are public; do not add the phone number.
+- Do not add a web framework, backend, database, contact form service, tracking code, or package manager for a JavaScript app.
