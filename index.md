@@ -1,22 +1,22 @@
 ---
 layout: default
 title: Home
-description: Roshini Narayanan is a product manager working across healthcare, digital platforms, and AI.
+description: Roshini Narayanan is a healthcare technology product manager shaping digital platforms and AI-enabled experiences.
 permalink: /
 ---
 
 <section class="intro" aria-labelledby="intro-title">
-  <p class="eyebrow">Product management <span aria-hidden="true">·</span> Healthcare <span aria-hidden="true">·</span> AI</p>
-  <h1 id="intro-title">Hi, I’m Roshini.<br><span class="heading-accent">I make complex products easier to use.</span></h1>
+  <p class="eyebrow">Product management <span aria-hidden="true">·</span> Healthcare technology <span aria-hidden="true">·</span> AI</p>
+  <h1 id="intro-title">Hi, I’m Roshini.<br><span class="heading-accent">I make healthcare technology easier to use.</span></h1>
   <p class="intro-copy">
-    I’m a product manager with a biomedical engineering foundation and a focus on
-    healthcare technology, enterprise platforms, and AI. I bring customer insight,
-    technical constraints, and business goals together to shape products people can adopt.
+    As a product manager with a biomedical engineering background, I translate user
+    insights and technical constraints into healthcare platforms and AI experiences
+    designed for adoption.
   </p>
   <p class="intro-note">Currently pursuing my MBA at Berkeley Haas and working in digital technology at GE HealthCare.</p>
   <div class="button-row">
-    <a class="button button-primary" href="{{ '/work-experience/' | relative_url }}">Explore my experience</a>
-    <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+    <a class="button button-primary" href="{{ '/work-experience/' | relative_url }}">View my product experience</a>
+    <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact me</a>
   </div>
 </section>
 
