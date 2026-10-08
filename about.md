@@ -5,14 +5,25 @@ description: Learn about Roshini Narayanan’s background in biomedical engineer
 permalink: /about/
 ---
 
-<header class="page-intro">
-  <p class="eyebrow">A little about me</p>
-  <h1>Healthcare roots.<br><span class="heading-accent">Product mindset.</span></h1>
-  <p class="lead">
-    I’m Roshini Narayanan, a product manager with a background in biomedical engineering.
-    I’m interested in how thoughtful software and AI can make complex healthcare and
-    enterprise work better for the people doing it.
-  </p>
+<header class="page-intro about-intro">
+  <div class="about-intro-copy">
+    <p class="eyebrow">A little about me</p>
+    <h1 id="about-title">Healthcare roots.<br><span class="heading-accent">Product mindset.</span></h1>
+    <p class="lead">
+      I’m Roshini Narayanan, a product manager with a background in biomedical engineering.
+      I’m interested in how thoughtful software and AI can make complex healthcare and
+      enterprise work better for the people doing it.
+    </p>
+  </div>
+  <figure class="about-portrait">
+    <img
+      src="{{ '/assets/images/roshini-narayanan-profile.webp' | relative_url }}"
+      alt="Portrait of Roshini Narayanan"
+      width="1090"
+      height="1414"
+      decoding="async"
+    >
+  </figure>
 </header>
 
 <section class="content-section" aria-labelledby="education-title">
