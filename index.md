@@ -5,19 +5,30 @@ description: Roshini Narayanan is a healthcare technology product manager shapin
 permalink: /
 ---
 
-<section class="intro" aria-labelledby="intro-title">
-  <p class="eyebrow">Product management <span aria-hidden="true">·</span> Healthcare technology <span aria-hidden="true">·</span> AI</p>
-  <h1 id="intro-title">Hi, I’m Roshini.<br><span class="heading-accent">I make healthcare technology easier to use.</span></h1>
-  <p class="intro-copy">
-    As a product manager with a biomedical engineering background, I translate user
-    insights and technical constraints into healthcare platforms and AI experiences
-    designed for adoption.
-  </p>
-  <p class="intro-note">Currently pursuing my MBA at Berkeley Haas and working in digital technology at GE HealthCare.</p>
-  <div class="button-row">
-    <a class="button button-primary" href="{{ '/work-experience/' | relative_url }}">View my product experience</a>
-    <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact me</a>
+<section class="intro home-intro" aria-labelledby="intro-title">
+  <div class="home-intro-copy">
+    <p class="eyebrow">Product management <span aria-hidden="true">·</span> Healthcare technology <span aria-hidden="true">·</span> AI</p>
+    <h1 id="intro-title">Hi, I’m Roshini.<br><span class="heading-accent">I make healthcare technology easier to use.</span></h1>
+    <p class="intro-copy">
+      As a product manager with a biomedical engineering background, I translate user
+      insights and technical constraints into healthcare platforms and AI experiences
+      designed for adoption.
+    </p>
+    <p class="intro-note">Currently pursuing my MBA at Berkeley Haas and working in digital technology at GE HealthCare.</p>
+    <div class="button-row">
+      <a class="button button-primary" href="{{ '/work-experience/' | relative_url }}">View my product experience</a>
+      <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact me</a>
+    </div>
   </div>
+  <figure class="home-portrait">
+    <img
+      src="{{ '/assets/images/roshini-narayanan-profile.webp' | relative_url }}"
+      alt="Portrait of Roshini Narayanan"
+      width="1090"
+      height="1414"
+      decoding="async"
+    >
+  </figure>
 </section>
 
 <section class="impact" aria-labelledby="impact-title">
